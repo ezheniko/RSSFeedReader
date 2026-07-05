@@ -26,6 +26,12 @@ description: "Task list template for feature implementation"
 - **Mobile**: `api/src/`, `ios/src/` or `android/src/`
 - Paths shown below assume single project - adjust based on plan.md structure
 
+## Constitution-Aligned Expectations
+
+- Include tasks for security-relevant validation, maintainability-focused refactoring, and explicit verification steps.
+- Keep tasks aligned to the MVP-first scope; defer persistence, polling, and rich content handling to later phases unless the spec explicitly requires them.
+- For web features, include a task to verify routing, configuration, and build health before feature work is considered complete.
+
 <!--
   ============================================================================
   IMPORTANT: The tasks below are SAMPLE TASKS for illustration purposes only.

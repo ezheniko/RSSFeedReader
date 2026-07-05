@@ -103,6 +103,12 @@
 - **[Entity 1]**: [What it represents, key attributes without implementation]
 - **[Entity 2]**: [What it represents, relationships to other entities]
 
+### Constitution Alignment *(mandatory)*
+
+- The specification MUST state how the feature preserves the MVP-first scope and avoids speculative work.
+- The specification MUST describe any required validation, error handling, or secure handling for user input and external data.
+- The specification MUST define a concrete verification step for the feature, such as a test, build check, or manual UI/API check.
+
 ## Success Criteria *(mandatory)*
 
 <!--

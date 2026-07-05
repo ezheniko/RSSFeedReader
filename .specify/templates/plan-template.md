@@ -40,7 +40,11 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- The plan MUST keep scope aligned with the MVP-first subscription workflow unless the spec explicitly approves broader scope.
+- The design MUST show how user input, feed URLs, and future content handling are managed defensively.
+- The plan MUST preserve explicit backend/frontend separation and keep the implementation maintainable.
+- The plan MUST include a verification path for build, manual validation, and configuration checks before completion.
+- Any deviation from these rules MUST be documented in the Complexity Tracking section.
 
 ## Project Structure
 
